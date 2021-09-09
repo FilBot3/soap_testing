@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "soap_testing"
+version = "0.1.0"
+description = "A series of Jupyter Notebooks to describe how to use SOAP and test it."
+authors = ["Phillip Dudley <Phillip.Dudley@BlueKC.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jupyterlab = "^3.1.11"
+zeep = "^4.1.0"
+
+[tool.poetry.dev-dependencies]
+pyright = "^0.0.9"
+pylint = "^2.10.2"
+pycodestyle = "^2.7.0"
+flake8 = "^3.9.2"
+autopep8 = "^1.5.7"
+jsonlint = "^0.1"
+yamllint = "^1.26.3"
+rstcheck = "^3.3.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
